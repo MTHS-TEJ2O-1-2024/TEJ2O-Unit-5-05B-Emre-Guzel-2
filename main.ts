@@ -42,7 +42,7 @@ input.onButtonPressed(Button.A, function () {
     traficlLigth.setPixelColor(1, neopixel.colors(NeoPixelColors.Black))
     basic.pause(1000)
     
-    // Red
+    // Green
     traficlLigth.setPixelColor(2, neopixel.colors(NeoPixelColors.Green))
     traficlLigth.show()
     basic.pause(1000)
