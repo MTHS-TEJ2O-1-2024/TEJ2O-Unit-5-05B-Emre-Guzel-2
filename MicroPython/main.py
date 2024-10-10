@@ -1,10 +1,10 @@
 """
-Created by: Mr. Coxall
-Created on: Sep 2020
-This module is a Micro:bit MicroPython program
+Created by: Emre Guzell
+Created on: Oct 10 2024
+This module is a Micro:bit MicroPython program  ligths the trafic lights 
 """
 
 from microbit import *
+import neopixel
 
-
-display.scroll("Hello, World!")
+display.clear()
