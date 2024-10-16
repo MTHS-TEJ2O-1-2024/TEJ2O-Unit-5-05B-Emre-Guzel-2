@@ -21,29 +21,31 @@ while True:
     # Setting up our RGB LED's
     if button_a.is_pressed():
         display.show(Image.SQUARE)
+
         # Red
         trafic_Light[0] = (255, 0, 0)
         trafic_Light.show()
         sleep(1000)
         # Turining off the Red LED
         trafic_Light[0] = (0, 0, 0)
-        sleep(1000)
         trafic_Light.show()
+        sleep(1000)
 
-        # Yellow LED
+        # Green LED
         trafic_Light[1] = (255, 234, 0)
         trafic_Light.show()
         sleep(1000)
         trafic_Light[1] = (0, 0, 0)
-        sleep(1000)
         trafic_Light.show()
-        # Green
+        sleep(1000)
+
+        # Yellow LED
         trafic_Light[2] = (255, 128, 0)
         trafic_Light.show()
         sleep(1000)
         trafic_Light[2] = (0, 0, 0)
-        sleep(1000)
         trafic_Light.show()
+        sleep(1000)
 
         # Turn off
     if button_b.is_pressed:
