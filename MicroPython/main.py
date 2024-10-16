@@ -31,19 +31,19 @@ while True:
         trafic_Light.show()
         sleep(1000)
 
-        # Green LED
-        trafic_Light[1] = (255, 234, 0)
+        # Yellow LED
+        trafic_Light[1] = (255, 128, 0)
         trafic_Light.show()
         sleep(1000)
         trafic_Light[1] = (0, 0, 0)
         trafic_Light.show()
         sleep(1000)
 
-        # Yellow LED
-        trafic_Light[2] = (255, 128, 0)
+        # Green LED
+        trafic_Light[1] = (255, 234, 0)
         trafic_Light.show()
         sleep(1000)
-        trafic_Light[2] = (0, 0, 0)
+        trafic_Light[1] = (0, 0, 0)
         trafic_Light.show()
         sleep(1000)
 
